@@ -42,4 +42,10 @@ public class Alumno {
     public void setNif(String nif) {
         this.nif = nif;
     }
+    
+    
+    Alumno objAlumno = new Alumno("Pepita", "Sánchez", "44332234L");
+    System.out.println("El nuevo alumno se llama " + objAlumno.getNombre());
+
+    
 }
